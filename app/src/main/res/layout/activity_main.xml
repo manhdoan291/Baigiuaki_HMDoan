@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#2D3E4F"
+    android:layout_centerHorizontal="true">
+    <EditText
+        android:layout_width="311dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:hint=" Đăng nhập"
+        android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+        android:id="@+id/dangnhap"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/bg_radius"/>
+    <EditText
+        android:layout_width="311dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:hint=" Mật khẩu"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:id="@+id/matkhau"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/dangnhap"
+        android:background="@drawable/bg_radius"
+         />
+    <ImageButton
+        android:layout_width="191dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btn_dangnhap"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/matkhau"
+        android:background="@drawable/bg_radius"
+        android:src="@drawable/text_button"
+        />
+
+
+</RelativeLayout>
